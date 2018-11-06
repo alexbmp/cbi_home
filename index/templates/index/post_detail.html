@@ -5,7 +5,7 @@
     <div class="post">
         {% if post.published_date %}
             <div class="date">
-                <p>published: {{ post.published_date }}</p>
+                <p>published: {{ post.published_date }} by <a class="author">{{ post.author }}</a></p>
             </div>
         {% endif %}
         <h1>{{ post.title }}</h1>

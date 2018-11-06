@@ -10,50 +10,82 @@ h1 a {
 }
 
 .page-header {
-    background-color: #00378C;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    border: transparent;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #000000;
-    font-size: 36pt;
+    color: #00378C;
+    font-size: 25pt;
     text-decoration: none;
 }
 
+.logo-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    border: transparent;
+}
+
+.logo { width: 220.6px; height: 67.6px; }
+
 .content {
-    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-.date {
-    color: #828282;
-}
-
-.save {
-    float: right;
-}
-
-.post-form textarea, .post-form input {
+.navbar-custom { 
+    display: flex;
+    justify-content: center;
     width: 100%;
+    text-align: center;
+    background-color: #00378C !important; 
+    margin-bottom: 30px;
 }
+
+.nav-item {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-item > a { color: #55bfff; }
+.nav-item > a:hover { color: #00dfff; }
+.nav-item > a:focus { color: #00ffff; }
+
+h1, h2, h3, h4 { font-family: 'Noto Sans KR', sans-serif; }
+
+.date { color: #828282; font-size: 15px; }
+
+.save { float: right; }
+
+.author { color: #00378C!important; }
+
+.post-form textarea, .post-form input { width: 100%; }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
     font-size: 26pt;
-    margin-right: 20px;
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 20px;
+    color: #000000;
 }
 
-.post h1 a, .post h1 a:visited {
-    color: #000000;
+.post h1 a { color: #000000; }
+
+.post h1 a:visited { color: #777799; }
+
+.post-list {
+    padding-right: 220px;
 }
 
 
